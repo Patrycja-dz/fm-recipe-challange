@@ -54,9 +54,7 @@ In future projects, I want to continue focusing on accessibility and performance
 
 ## Author
 
-- Website - [Your Name](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Patrycja-dz](https://www.frontendmentor.io/profile/Patrycja-dz)
 
 ## Acknowledgments
 

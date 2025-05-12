@@ -103,7 +103,7 @@ body {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-md);
   color: var(--color-stone-900);
-  background-color: var(--color-stone-150);
+  background-color: var(--color-stone-100);
 
   line-height: 1.6;
   letter-spacing: 0.02em;
@@ -130,26 +130,28 @@ body {
   padding-inline: clamp(1rem, 5vw, var(--space-40));
   padding-block: var(--space-40);
   max-width: 46rem;
-  width: calc(100% - 2rem);
   background-color: var(--color-white);
   border: 1px solid var(--color-stone-900);
   border-radius: var(--r-24);
 }
+
 .recipe__content {
   width: 100%;
   overflow-wrap: break-word;
 }
 
 .recipe__title {
-  font-size: var(--font-size-xl);
+  font-size: var(--space-40);
   color: var(--color-stone-900);
   padding-bottom: var(--space-24);
 }
 
 .recipe__description {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
   color: var(--color-stone-600);
 }
+
 .recipe__section {
   margin-block: var(--space-32);
 }
@@ -168,6 +170,7 @@ body {
   h2 {
     color: var(--color-rose-800);
     padding-bottom: var(--space-16);
+    font-size: var(--font-size-md);
   }
 }
 
@@ -175,9 +178,11 @@ body {
   color: var(--color-brown-800);
   font-size: var(--font-size-lg);
 }
+
 .recipe__list {
   padding-left: var(--space-24);
   margin-block-start: var(--space-16);
+  font-size: var(--font-size-sm);
 }
 
 .recipe__list-item {
@@ -190,9 +195,12 @@ body {
   text-align: left;
   margin-bottom: 0.75rem;
 }
+
 .recipe__note {
   padding-block: var(--space-24);
+  font-size: var(--font-size-sm);
 }
+
 .nutrition-table {
   width: 100%;
   border-collapse: collapse;
@@ -238,8 +246,13 @@ body {
   margin: var(--space-32) 0;
 }
 
+.recipe__instruction--list {
+  font-size: var(--font-size-sm);
+}
+
 .recipe__instruction--list li {
   padding-left: 1rem;
+  margin-block: 8px;
 }
 
 .recipe__instruction--list li::marker {
@@ -259,6 +272,7 @@ ul.recipe__list > .recipe__list-item::marker {
     margin: 0;
     width: 100%;
   }
+
   .recipe__header {
     margin: 0;
     width: 100%;
@@ -271,6 +285,7 @@ ul.recipe__list > .recipe__list-item::marker {
     border-radius: 0;
     padding-bottom: 0;
   }
+
   .recipe__content-wrapper {
     padding-inline: 1rem;
   }
@@ -278,6 +293,7 @@ ul.recipe__list > .recipe__list-item::marker {
   .recipe__section {
     margin-block: var(--space-24);
   }
+
   .recipe__title {
     font-size: clamp(1.5rem, 5vw, var(--font-size-xl));
   }
