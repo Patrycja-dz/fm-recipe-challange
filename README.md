@@ -28,8 +28,8 @@ Your challenge is to build out this recipe page and get it looking as close to t
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/Patrycja-dz/fm-recipe-challange)
+- Live Site URL: [live site URL](https://patrycja-dz.github.io/fm-recipe-challange/)
 
 ## My process
 
