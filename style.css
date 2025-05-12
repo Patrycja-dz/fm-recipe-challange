@@ -125,7 +125,6 @@ body {
 
 .recipe {
   margin-inline: auto;
-  margin-block: clamp(2rem, 5vw, 10rem - var(--space-40));
   padding-inline: clamp(1rem, 5vw, var(--space-40));
   padding-block: var(--space-40);
   max-width: 46rem;
@@ -223,17 +222,23 @@ body {
 
 .nutrition-table th {
   text-align: left;
-  padding: 0.75rem;
+  padding: 12px;
+  padding-left: var(--space-32);
   font-weight: var(--font-weight-regular);
 }
 
 .nutrition-table td {
-  text-align: center;
-  padding: 0.75rem;
+  text-align: left;
+  padding: 12px;
+  padding-left: var(--space-16);
   font-weight: var(--font-weight-semibold);
   color: var(--color-brown-800);
 }
 
+.nutrition-table td:last-of-type,
+.nutrition-table th:last-of-type {
+  padding-bottom: 0;
+}
 .sr-only {
   position: absolute;
   width: 1px;
